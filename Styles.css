@@ -1,0 +1,261 @@
+body
+{
+    background-color: #999999;
+}
+
+@font-face {
+    font-family: 'Pristina';
+    src: url(Fonts/PRISTINA.TTF);
+}
+
+.head
+{
+    display: inline-block;
+    list-style-type: none;
+    font-family: 'Pristina';
+    font-size: x-large;
+    background-color: #666666;
+    position: absolute;
+    width: 900px;
+    height: 30px;
+    left: 19%;
+    top: 5%;
+    border-radius: 15px / 15px;
+}
+
+.head a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.head li
+{
+    display: inline-block;
+    background-color: white;
+    position: relative;
+    left: 1%;
+    text-align: center;
+    top: 2.5px;
+    margin-right: 70px;
+    height: 25px;
+    width: 100px;
+    border-radius: 15px / 15px;
+}
+
+.head li:hover
+{
+    background-color: rgba(255, 0, 0, 50%);
+    color: white;
+}
+
+.head li:active
+{
+    background-color: rgba(255, 247, 0, 0.5);
+    color: white;
+}
+
+.ListPos
+{
+    position: relative;
+    width: 800px;
+    left: 21%;
+}
+
+.Deco1
+{   
+    position: absolute;
+    left: 13.8%;
+    top: 110px;
+    width: 1100px;
+    height: 200px;
+    background-image: url("Images/Deco1.svg");
+    background-repeat: no-repeat;
+}
+
+.Deco2
+{   
+    position: absolute;
+    left: -5.39%;
+    top: 100.9%;
+    width: 1100px;
+    height: 200px;
+    background-image: url("Images/Deco2.svg");
+    background-repeat: no-repeat;
+}
+
+.Logo
+{
+    width: 1500px;
+    height: 4350px;
+    background-image: url("Images/Logo.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+}
+
+.MainTextArea
+{
+    position: absolute;
+    left: 17.371%;
+    top: 37.4322%;
+    width: 990px;
+    height: 3350px;
+    background-color: rgba(107, 87, 87, 90%);
+
+    font-family: 'Pristina';
+    font-size: 32px;
+    text-align: center;
+    
+}
+
+.BodyHead
+{
+    position: absolute;
+    left: 17.371%;
+    top: 29%;
+    width: 990px;
+    height: 500px;
+    background-image: url("Images/BodyHead.svg");
+    background-repeat: no-repeat;
+}
+
+.BodyBottom
+{
+    position: absolute;
+    left: -0.1%;
+    top: 99.8%;
+    width: 991.5px;
+    height: 500px;
+    background-image: url("Images/BodyBottom.svg");
+    background-repeat: no-repeat;
+}
+
+.foot
+{
+    display: inline-block;
+    list-style-type: none;
+    font-family: 'Pristina';
+    font-size: x-large;
+    text-align: center;
+    background-color: #666666;
+    color: white;
+    position: absolute;
+    width: 900px;
+    height: 30px;
+    left: 4%;
+    bottom: -6.3%;
+    border-radius: 15px / 15px;
+    
+}
+
+.Maker
+{
+    position: absolute;
+    left: 46%;
+    top: -2%;
+}
+
+.Team
+{
+    position: absolute;
+    font-family: 'Pristina';
+    font-size: x-large;
+    color: white;
+    background-color: rgb(107, 87, 87);
+    position: absolute;
+    border-radius: 15px / 15px;
+    top: 15%;
+    left: -25%;
+    width: 210px;
+}
+
+.Team a
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.MyTeam
+{
+    position: relative;
+    left: 13%;
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px/15px;
+    width: 150px;
+}
+
+.Members
+{
+    position: relative;
+    list-style-type:disc;
+    left: -5%;
+}
+
+.one:hover
+{
+    text-align: center;
+    background-color: rgba(255, 0, 0, 50%);
+    border-radius: 15px/15px;
+    width: 200px;
+    left: -3%;
+}
+
+.one:active
+{
+    text-align: center;
+    background-color: rgba(255, 247, 0, 0.5);
+    border-radius: 15px/15px;
+    width: 200px;
+    left: -3%;
+}
+
+.School
+{
+    position: absolute;
+    background-color: rgb(107, 87, 87);
+    position: absolute;
+    border-radius: 15px / 15px;
+    top: 15%;
+    right: -25%;
+    width: 210px;
+    height: 400px;
+}
+
+.iut
+{
+    position: absolute;
+    left: 14.5%;
+    top: 10%;
+    width: 150px;
+    height: 150px;
+    background-image: url("Images/IUT.svg");
+    background-repeat: no-repeat;
+    border-radius: 100px/100px;
+}
+
+.iut:hover, .un:hover
+{
+    box-shadow: 6px 6px 60px rgb(25, 222, 222);
+}
+
+.iut:active, .un:active
+{
+    box-shadow: 6px 6px 60px rgb(255, 255, 0);
+}
+
+.un
+{
+    position: absolute;
+    left: 14.5%;
+    top: 55%;
+    width: 150px;
+    height: 150px;
+    background-image: url("Images/UN.svg");
+    background-repeat: no-repeat;
+    border-radius: 100px/100px;
+}
