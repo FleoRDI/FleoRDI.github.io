@@ -263,3 +263,20 @@ body
     background-repeat: no-repeat;
     border-radius: 100px/100px;
 }
+
+.Wattpad
+{
+    text-decoration: none;
+    color: white;
+    border-radius: 15px/15px;
+}
+
+.Wattpad:hover
+{
+    background-color: burlywood;
+}
+
+.Wattpad:active
+{
+    color: red;
+}
