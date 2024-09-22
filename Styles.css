@@ -92,6 +92,7 @@ body
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right;
+    background-size: 50%;
 }
 
 .MainTextArea
@@ -107,7 +108,7 @@ body
 
     font-family: 'Pristina', 'Times New Roman', Times, serif;
     font-size: 32px;
-    text-align: center;   
+    text-align: center; 
 }
 
 .BodyHead
